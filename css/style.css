@@ -1,13 +1,61 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: sans-serif;
+
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #807f7f;
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #000;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+a, a:link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+a:visited {
+text-decoration: none;
+color: #f4f2f2;
+font-size: 1.2em;
+font-weight: bold;
+
+}
+
+.author {
+  font-weight: bold;
 }
 
 .logo {
@@ -32,6 +80,13 @@ nav {
   float: right;
 }
 
+figcaption {
+  font-size: .9em;
+  font-style: italic;
+  padding-bottom: 10px;
+
+}
+
 ul {
   list-style-type: none;
   float: right;
@@ -43,7 +98,7 @@ li {
 }
 
 article {
-  padding-top: 100px;
+  padding: 100px;
 }
 
 .container {
